@@ -2,7 +2,7 @@
 
 int main() {
     int i = 10;
-    if (i % 2 == 0) {
+    if (i%2 == 0) {
         printf("True\n");
     } else {
         printf("False\n");
