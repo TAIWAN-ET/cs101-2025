@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(){
-   char a[] = "A4B1C3f3";
+   char a[100];
+   scanf("%s", a);
    for (int i = 0; a[i] != '\0'; i++) {
      if (a[i] >= 'A' && a[i] <= 'Z' || a[i] >= 'a' && a[i] <= 'z') {
           int count = a[i + 1] - '0';
